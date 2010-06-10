@@ -1,0 +1,12 @@
+RESTAURER L'IMAGE ORIGINALE
+- Décompresser HT058P801843.tlz dans le répertoire nandroid de la carte miniSD
+- Allumer le téléphone en laissant le bouton Trackball enfoncé
+- Lancer la commande : fastboot flash recovery recovery.img 
+- Sélectionner BOOTLOADER > RECOVERY
+- Lancer la restauration
+
+LANCER UN BACKUP
+- Allumer le téléphone en laissant le bouton Trackball enfoncé
+- Lancer la commande : fastboot flash recovery recovery.img 
+- Sélectionner BOOTLOADER > RECOVERY
+- Lancer la sauvegarde qui s'installera dans le répertoire nandroid de la carte miniSD
